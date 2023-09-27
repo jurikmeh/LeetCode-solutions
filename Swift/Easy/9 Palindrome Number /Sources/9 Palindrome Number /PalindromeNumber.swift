@@ -7,7 +7,7 @@ func isPalindrome(_ x: Int) -> Bool {
     var reverseNumber = 0
     var number = x
     
-    while(number != 0) {
+    while number != 0 {
         reverseNumber *= 10
         reverseNumber += number % 10
         number /= 10

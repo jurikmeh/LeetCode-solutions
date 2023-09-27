@@ -2,7 +2,7 @@ import XCTest
 @testable import __Palindrome_Number_
 
 final class PalindromeNumberTests: XCTestCase {
-    func isPalindromeTest() throws {
+    func testIsPalindrome() throws {
         XCTAssertEqual(isPalindrome(-121), false)
         XCTAssertEqual(isPalindrome(121), true)
         XCTAssertEqual(isPalindrome(10), false)
