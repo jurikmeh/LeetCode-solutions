@@ -6,11 +6,11 @@ If there is no common prefix, return an empty string `""`.
 
 
 
-**Example 1:**
+**Example 1:** \
 __Input:__ ```strs = ["flower", "flow", "flight"]```\
 __Output:__ ```"fl"```
                                             
-**Example 2:**
+**Example 2:** \
 __Input:__ ```strs = ["dog", "racecar", "car"]```\
 __Output:__ ```""```\
 __Explanation:__ ```There is no common prefix among the input strings.```

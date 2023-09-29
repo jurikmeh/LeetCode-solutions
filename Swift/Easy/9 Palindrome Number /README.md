@@ -4,17 +4,17 @@ Given an integer `x`, return `true` *if* `x` *is a [palindrome](https://en.wikip
 
 
 
-**Example 1:**
+**Example 1:** \
 __Input:__ ```x = 121```\
 __Output:__ ```true```\
 __Explanation:__ ```121 reads as 121 from left to right and from right to left.```
                                             
-**Example 2:**
+**Example 2:** \
 __Input:__ ```x = -121```\
 __Output:__ ```false```\
 __Explanation:__ ```From left to right, it reads -121. From right to left, it becomes 121-. Therefore it is not a palindrome.```
 
-**Example 3:**
+**Example 3:** \
 __Input:__ ```x = 10```\
 __Output:__ ```false```\
 __Explanation:__ ```Reads 01 from right to left. Therefore it is not a palindrome.```
